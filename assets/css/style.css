@@ -106,7 +106,6 @@ body {
 }
 
 .cartas {
-	background-color: aqua;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
@@ -122,7 +121,7 @@ body {
 	color: #0e0027;
 	border: 1px solid #ccc;
 	border-radius: 20px;
-	box-shadow: 0 6px 12px rgba(0, 0, 0, 0.8);
+	box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
 }
 
 .cartas .carta img {
@@ -187,57 +186,22 @@ body {
 footer {
 	background-color: var(--header-color);
 	color: #fff;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+
 	text-align: center;
 	padding: 20px;
 	margin-top: 60px;
 }
 
-footer a {
-	color: #fff;
-	text-decoration: none;
-	font-weight: normal;
+.esconder {
+	display: none;
 }
 
-footer p {
-	margin: 0;
-	font-size: 0.9rem;
+.mostrar {
+	display: block;
 }
-footer p a {
-	color: #fff;
-	text-decoration: underline;
-}
-
-footer p a:hover {
-	color: #ddd;
-}
-footer p a:focus {
-	outline: 2px solid #fff;
-	outline-offset: 2px;
-}
-footer p a:active {
-	color: #ccc;
-}
-footer p a:visited {
-	color: #bbb;
-}
-footer p a:visited:hover {
-	color: #aaa;
-}
-footer p a:visited:focus {
-	outline: 2px solid #bbb;
-	outline-offset: 2px;
-}
-footer p a:visited:active {
-	color: #999;
-}
-footer p a:visited:active:hover {
-	color: #888;
-}
-footer p a:visited:active:focus {
-	outline: 2px solid #999;
-	outline-offset: 2px;
-}
-
 
 /* display: grid;
     grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
