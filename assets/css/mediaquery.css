@@ -1,0 +1,130 @@
+@media (max-width: 1200px) {
+    .header {
+        flex-direction: column;
+    }
+    .container {
+        padding: 0 40px;
+        margin: 0 auto;
+    }
+    .container h1 {
+        font-size: 3rem;
+    }
+    .filtros {
+        flex-direction: column;
+        gap: 15px;
+        margin: 0 auto;
+    }
+    .filtro-item {
+        width: 100%;
+    }
+}
+
+@media (max-width: 992px) {
+    .header {
+        flex-direction: column;
+    }
+    .container {
+        padding: 0 30px;
+    }
+    .container h1 {
+        font-size: 2.8rem;
+    }
+    .filtros {
+        flex-direction: column;
+        gap: 15px;
+    }
+    .filtro-item {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+    }
+    .container {
+        padding: 0 20px;
+    }
+    .container h1 {
+        font-size: 2.5rem;
+    }
+    .filtros {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .filtro-item {
+        width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    .header {
+        flex-direction: column;
+    }
+    .container {
+        padding: 0 15px;
+    }
+    .container h1 {
+        font-size: 2rem;
+    }
+    .filtros {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .filtro-item {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+	.header {
+		flex-direction: column;
+	}
+	.container {
+		padding: 0 20px;
+	}
+	.container h1 {
+		font-size: 2.5rem;
+	}
+	.filtros {
+		flex-direction: column;
+	}
+	.filtro-item {
+		width: 100%;
+	}
+	.cartas {
+		flex-direction: column;
+	}
+	.cartas .carta {
+		max-width: 100%;
+	}
+}
+
+@media (max-width: 480px) {
+    .container h1 {
+        font-size: 2rem;
+    }
+    .filtros {
+        gap: 10px;
+    }
+    .filtro-item label {
+        font-size: 1rem;
+    }
+    .cartas .carta {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 320px) {
+    .container h1 {
+        font-size: 1.5rem;
+    }
+    .filtros {
+        padding: 10px;
+    }
+    .filtro-item select, 
+    .filtro-item input {
+        font-size: 14px;
+        height: 36px;
+    }
+}

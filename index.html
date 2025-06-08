@@ -3,13 +3,13 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 	<title>Semana do Zero ao Programador - Magick IA</title>
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
 	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
-	<a href=""></a>
 </head>
 <body>
 	<header class="header">
@@ -20,7 +20,7 @@
 		<div class="filtros">
 			<div class="categorias-cartas filtro-item">
 				<label for="categoria">Categoria</label>
-				<select id="categoria" class="categoria">
+				<select id="categoria" class="categoria seta">
 					<option value="">Selecione uma carta</option>
 					<option value="comum">Comum</option>
 					<option value="rara">Rara</option>
@@ -40,28 +40,37 @@
 			<li class="carta" data-categoria="Épica" data-preco="3000">
 				<img src="./assets/images/carta-arkanon.png">
 				<div class="informacoes">
-					<h2>Arkanon</h2>
+					<h2 class="nome-personagem">Arkanon</h2>
 					<span class="categoria">Categoria:</span>
 					<span class="preco">R$ 3.000,00</span>
-					<button class="btn-comprar">Comprar</button>
+					<button class="btn-comprar">
+						<i class="fa fa-cart-arrow-down" aria-hidden="true"></i>
+						Comprar
+					</button>
 				</div>
 			</li>
 			<li class="carta" data-categoria="Épica" data-preco="3000">
 				<img src="./assets/images/carta-drahven.png">
 				<div class="informacoes">
-					<h2>Drahven</h2>
+					<h2 class="nome-personagem">Drahven</h2>
 					<span class="categoria">Categoria:</span>
 					<span class="preco">R$ 600,00</span>
-					<button class="btn-comprar">Comprar</button>
+					<button class="btn-comprar">
+						<i class="fa fa-cart-arrow-down" aria-hidden="true"></i>
+						Comprar
+					</button>
 				</div>
 			</li>
 			<li class="carta" data-categoria="Épica" data-preco="3000">
 				<img src="./assets/images/carta-kaelthar.png">
 				<div class="informacoes">
-					<h2>Kaelthar</h2>
+					<h2 class="nome-personagem">Kaelthar</h2>
 					<span class="categoria">Categoria:</span>
 					<span class="preco">R$ 800,00</span>
-					<button class="btn-comprar">Comprar</button>
+					<button class="btn-comprar">
+						<i class="fa fa-cart-arrow-down" aria-hidden="true"></i>
+						Comprar
+					</button>
 				</div>
 			</li>
 			<li class="carta" data-categoria="Épica" data-preco="3000">
@@ -70,30 +79,57 @@
 					<h2>Lymara</h2>
 					<span class="categoria">Categoria:</span>
 					<span class="preco">R$ 4.000,00</span>
-					<button class="btn-comprar">Comprar</button>
+					<button class="btn-comprar">
+						<i class="fa fa-cart-arrow-down" aria-hidden="true"></i>
+						Comprar
+					</button>
 				</div>
 			</li>
-			<li class="carta" data-categoria="Épica" data-preco="3000">
+			<li class="carta" data-categoria="Rara" data-preco="1000">
 				<img src="./assets/images/carta-maldrik.png">
 				<div class="informacoes">
 					<h2>Maldrik</h2>
 					<span class="categoria">Categoria:</span>
-					<span class="preco">R$ 1.500,00</span>
-					<button class="btn-comprar">Comprar</button>
+					<span class="preco">R$ 1.000,00</span>
+					<button class="btn-comprar">
+						<i class="fa fa-cart-arrow-down" aria-hidden="true"></i>
+						Comprar
+					</button>
 				</div>
 			</li>
-			<li class="carta" data-categoria="Épica" data-preco="3000">
+			<li class="carta" data-categoria="Rara" data-preco="1000">
 				<img src="./assets/images/carta-nyxsombra.png">
 				<div class="informacoes">
-					<h2>Nyxsombra</h2>
+					<h2>Therion</h2>
 					<span class="categoria">Categoria:</span>
-					<span class="preco">R$ 400,00</span>
-					<button class="btn-comprar">Comprar</button>
+					<span class="preco">R$ 1.000,00</span>
+					<button class="btn-comprar">
+						<i class="fa fa-cart-arrow-down" aria-hidden="true"></i>
+						Comprar
+					</button>
 				</div>
-			</li>
+			</li>	
 		</ul>
 	</main>
-	<footer></footer>
+<footer class="text-center">
+		<p>Semana do Zero ao Programador - Magick IA</p>
+		<p>Desenvolvido por <a href="#" target="_blank">MD. Web Design & Desenvolvimento</a></p>
+		<p>© 2023</p>
+		<p>Todos os direitos reservados</p>
+		<p>Este site não é real, é um projeto fictício para fins educacionais.</p>
+		<p>Para mais informações, entre em contato conosco.</p>
+		<p>Você pode nos encontrar nas redes sociais:
+			<i class="fab fa-facebook-f"><a href="http://facebook.com"></a></i>
+			<i class="fab fa-twitter"><a href="http://twitter.com"></a></i>
+			<i class="fab fa-instagram"><a href="http://instagram.com"></a></i>
+			<i class="fab fa-linkedin"><a href="http://linkedin.com"></a></i>
+			<i class="fab fa-github"><a href="http://github.com"></a></i>
+		</p>
+</footer>
 <script></script>
+<script src="https://kit.fontawesome.com/9b6f01ba6c.js" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
 </html>
