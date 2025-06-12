@@ -26,6 +26,7 @@ body {
 }
 .container {
 	background-color: var(--container-color);
+	border-radius: 10px;
 	margin: 0 auto;
 	max-width: 1170px;
 }

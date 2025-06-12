@@ -10,6 +10,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
 	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+	<link rel="stylesheet" href="./assets/css/mediaquery.css">
 </head>
 <body>
 	<header class="header">
@@ -22,6 +23,7 @@
 				<label for="categoria">Categoria</label>
 				<select id="categoria" class="categoria seta">
 					<option value="">Selecione uma carta</option>
+					<option value="todas">Todas</option>
 					<option value="comum">Comum</option>
 					<option value="rara">Rara</option>
 					<option value="épica">Épica</option>
@@ -32,7 +34,7 @@
 				<input type="text" id="preco" class="preco" placeholder="Ex: 100">
 			</div>
 			<div class="filtro-botao">
-				<!-- <button id="btn-limpar" class="btn-limpar">Limpar</button> -->
+				<button class="btn-limpar-filtro">Limpar</button>
 				<button class="btn-filtrar">Aplicar filtros</button>
 			</div>
 		</div>
@@ -49,7 +51,7 @@
 					</button>
 				</div>
 			</li>
-			<li class="carta" data-categoria="Épica" data-preco="3000">
+			<li class="carta" data-categoria="Comum" data-preco="600">
 				<img src="./assets/images/carta-drahven.png">
 				<div class="informacoes">
 					<h2 class="nome-personagem">Drahven</h2>
@@ -61,7 +63,7 @@
 					</button>
 				</div>
 			</li>
-			<li class="carta" data-categoria="Épica" data-preco="3000">
+			<li class="carta" data-categoria="Comum" data-preco="800">
 				<img src="./assets/images/carta-kaelthar.png">
 				<div class="informacoes">
 					<h2 class="nome-personagem">Kaelthar</h2>
@@ -97,12 +99,12 @@
 					</button>
 				</div>
 			</li>
-			<li class="carta" data-categoria="Rara" data-preco="1000">
+			<li class="carta" data-categoria="Comum" data-preco="1000">
 				<img src="./assets/images/carta-nyxsombra.png">
 				<div class="informacoes">
 					<h2>Therion</h2>
 					<span class="categoria">Categoria:</span>
-					<span class="preco">R$ 1.000,00</span>
+					<span class="preco">R$ 500,00</span>
 					<button class="btn-comprar">
 						<i class="fa fa-cart-arrow-down" aria-hidden="true"></i>
 						Comprar
@@ -125,7 +127,7 @@
 			<a href="http://github.com/michaelmdrs" target="_blank"><i class="fab fa-github"></i></a>
 		</p>
 </footer>
-<script></script>
+<script src="./assets/js/script.js"></script>
 <script src="https://kit.fontawesome.com/9b6f01ba6c.js" crossorigin="anonymous"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
